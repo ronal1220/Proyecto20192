@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <!--Estilo personalizado para los Et, btn -->
+
+    <style name="RaisedButton" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="EditTextWhite" parent="Theme.AppCompat">
+        <item name="android:textColorHint">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_Size_login</item>
+        <item name="android:textColorPrimary">@color/colorWhite</item>
+        <item name="colorAccent">@color/colorWhite</item>
+        <item name="colorControlNormal">@color/colorWhite</item>
+        <item name="colorControlActivated">@color/colorWhite</item>
+        <item name="android:textColorHighlight">@color/colorWhite</item>
+        <item name="android:textColorLink">@color/colorWhite</item>
+    </style>
+
+    <style name="CustomDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorPrimary</item>
+        <!--title and message color-->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <!--dialog background-->
+        <item name="android:windowBackground">@drawable/dialog</item>
+    </style>
+
+    <dimen name="text_Size_login">22sp</dimen>
+</resources>

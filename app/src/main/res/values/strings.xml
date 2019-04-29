@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Proyecto-2019</string>
+    <string name="title_activity_reference">ReferenceActivity</string>
+    <string name="Info">InfoImage</string>
+    <string name="hint_User">Nombre de usuario</string>
+    <string name="hint_Pass">Contraseña</string>
+    <string name="btn_Login">Login</string>
+    <string name="tv_NoCuenta">¿No tienes cuenta?, </string>
+    <string name="tv_crear">crea una aquí</string>
+    <string name="hint_Correo">Correo electrónico</string>
+    <string name="btn_Reg">Regístrate</string>
+    <string name="crear">Crear Cuenta</string>
+    <string name="title_activity_container">ContainerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Galeria</string>
+    <string name="menu_slideshow">Contacto</string>
+    <string name="menu_tools">Herramientas</string>
+    <string name="menu_share">Compartir</string>
+    <string name="menu_exit">Salir</string>
+    <string name="nav_header_email">ronal12.rhr@gmail.com</string>
+    <string name="nav_header">Ronal</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="dia_exit">Cerrar sesión</string>
+    <string name="dia_exit_messa">¿Desea cerrar sesión?</string>
+    <string name="dia_exit_no">Cerrar</string>
+
+</resources>
