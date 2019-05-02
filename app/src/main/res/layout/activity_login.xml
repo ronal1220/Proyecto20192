@@ -63,7 +63,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/hint_Pass"
-                        android:inputType="textPassword"/>
+                        android:inputType="textPassword" />
 
                 </android.support.design.widget.TextInputLayout>
 
@@ -71,9 +71,9 @@
                     android:id="@+id/btn_login"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="login"
                     android:text="@string/btn_Login"
-                    android:theme="@style/RaisedButton"
-                    android:onClick="main"/>
+                    android:theme="@style/RaisedButton" />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
