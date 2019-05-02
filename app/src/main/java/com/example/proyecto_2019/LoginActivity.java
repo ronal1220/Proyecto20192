@@ -18,7 +18,7 @@ public class LoginActivity extends AppCompatActivity {
         setTheme(R.style.AppTheme);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        //casting
+        //casting d
         et_user = findViewById(R.id.et_usuario);
         et_password = findViewById(R.id.et_contrasena);
 
